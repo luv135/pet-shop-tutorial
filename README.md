@@ -2,11 +2,14 @@
 
 This box has all you need to get started with our [Pet Shop tutorial](http://truffleframework.com/tutorials/pet-shop).
 
+
+
 ## Installation
 
 1. Install Truffle globally.
     ```javascript
-    npm install -g truffle
+    # Truffle v5.1.5
+    npm install -g truffle@5.1.5
     ```
 
 2. Download the box. This also takes care of installing the necessary dependencies.
@@ -14,7 +17,7 @@ This box has all you need to get started with our [Pet Shop tutorial](http://tru
     truffle unbox pet-shop
     ```
 
-3. Run the development console.
+3. Run the development console, or use Ganache 
     ```javascript
     truffle develop
     ```
@@ -27,6 +30,8 @@ This box has all you need to get started with our [Pet Shop tutorial](http://tru
 
 5. Run the `liteserver` development server (outside the development console) for front-end hot reloading. Smart contract changes must be manually recompiled and migrated.
     ```javascript
+    // 依赖包安装
+    npm install
     // Serves the front-end on http://localhost:3000
     npm run dev
     ```
